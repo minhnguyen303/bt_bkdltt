@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<style>
+
+</style>
+<body>
+<script>
+    /*let dVatLy = prompt("Nhập điểm Vật lý");
+    let dHoaHoc = prompt("Nhập điểm Hóa học");
+    let dSinhHoc = prompt("Nhập điểm Sinh học");
+
+    if (!isNaN(dVatLy) && !isNaN(dHoaHoc) && !isNaN(dSinhHoc)) {
+        let tongDiem = parseInt(dVatLy) + parseInt(dHoaHoc) + parseInt(dSinhHoc);
+        let diemTrungbinh = tongDiem / 3;
+        alert("Tổng điểm: " + tongDiem + "\n" + "Điểm trung bình: " + diemTrungbinh);
+    } else {
+        alert("Đầu vào cần là một số!")
+    }*/
+
+    function myF(){
+        let dVatLy = prompt("Nhập điểm Vật lý");
+        let dHoaHoc = prompt("Nhập điểm Hóa học");
+        let dSinhHoc = prompt("Nhập điểm Sinh học");
+
+        if (!isNaN(dVatLy) && !isNaN(dHoaHoc) && !isNaN(dSinhHoc)) {
+            let tongDiem = parseInt(dVatLy) + parseInt(dHoaHoc) + parseInt(dSinhHoc);
+            let diemTrungbinh = tongDiem / 3;
+            alert("Tổng điểm: " + tongDiem + "\n" + "Điểm trung bình: " + diemTrungbinh);
+        } else {
+            alert("Đầu vào cần là một số!")
+        }
+    }
+
+/*    function bt_1() {
+        alert();
+    }*/
+</script>
+<button onclick="myF()">Nhập điểm 3 môn để tính tổng và trung bình cộng</button>
+</body>
+</html>
